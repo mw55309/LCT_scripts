@@ -73,3 +73,16 @@ perl levelreport.pl k outputprefix.taxon.lowest.txt
 perl levelreport.pl g outputprefix.taxon.lowest.txt
 ```
 
+## Example
+
+```sh
+# generate reports
+perl txt2taxon.pl test example/test.txt.gz
+
+# get kingdom level summary
+perl levelreport k example/test.taxon.lowest.txt
+
+# get genus level summary
+perl levelreport.pl g example/test.taxon.lowest.txt
+```
+

@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-my $PATH_TO_GG_INDEX = "gg_13_5_taxonomy.txt.gz";
+my $PATH_TO_GG_INDEX = "example/gg_13_5_taxonomy.txt.gz";
 
 my $named_prefix = shift;
 
